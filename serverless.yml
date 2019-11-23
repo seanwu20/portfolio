@@ -1,0 +1,27 @@
+service: portfolio
+
+plugins:
+  - serverless-plugin-include-dependencies
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: us-east-1
+  profile: portfolio
+
+
+#package:
+#  include:
+#    - include-me.js
+#    - include-me-dir/**
+#  exclude:
+#    - exclude-me.js
+#    - exclude-me-dir/**
+
+functions:
+  ui:
+    handler: ui.universal
+    events:
+      - http: ANY {proxy+}
+      - http: ANY /
