@@ -2,6 +2,14 @@ service: portfolio
 
 plugins:
   - serverless-plugin-include-dependencies
+  - serverless-domain-manager
+
+custom:
+  customDomain:
+    domainName: seanwu.codes
+    basePath: ""
+    stage: "${self:provider.stage}"
+    createRoute53Record: true
 
 provider:
   name: aws
