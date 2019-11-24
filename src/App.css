@@ -4,50 +4,7 @@
     margin-top:10px;
 }
 
-.github {
-    background-color:#313547;
-    padding:2.5% 2.5%;
-    border-radius: 1px;
-    height: 60vh;
-    overflow-y: scroll;
-    width:20%;
-}
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
-.intro {
-    background-color:#313547;
-    border-radius: 5px;
-    width:65%;
-}
-
-.intro .tabs button {
-    font-family: 'Inconsolata', monospace;
-    background-color: #282a36;
-    border:none;
-    font-size: 1.3em;
-    padding: 1.5% 5%;
-    margin:0px;
-
-}
-
-.intro .tabs button:hover {
-    background-color:#6272a4;
-    color:black;
-}
 
 
 

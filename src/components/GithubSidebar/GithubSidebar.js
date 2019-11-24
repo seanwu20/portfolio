@@ -1,17 +1,18 @@
 import React from 'react'
-import PacmanLoader from 'react-spinners/PacmanLoader'
+import './GithubSidebar.css'
 
-export const Commits = ({commitEvents, loading}) => {
+export const GithubSidebar = ({commitEvents}) => {
     return (
-        <div>
-            {loading === true ? <PacmanLoader color='#f1fa8c'/> :
+        <div className='github-side-bar'>
+            <h2 className='pink'>Latest Github Activity</h2>
+            {
                 commitEvents.map((commitEvent, index) => {
                     return (
                         <div key={index}>
                             {commitEvent.payload.commits.map((commit, index) => {
                                 return (
                                     <div key={index}>
-                                        <p ><span
+                                        <p><span
                                             className='orange'> > {commit.message}</span></p>
                                         <p className='indented'>on repo: {commitEvent.repo.name}</p>
                                     </div>

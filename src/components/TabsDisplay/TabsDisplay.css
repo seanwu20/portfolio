@@ -1,0 +1,28 @@
+.tabs-display {
+    background-color:#313547;
+    border-radius: 5px;
+    width:65%;
+}
+
+.button-tab {
+    font-family: 'Inconsolata', monospace;
+    background-color: #282a36;
+    border:none;
+    font-size: 1.3em;
+    padding: 1.5% 5%;
+    margin:0px;
+}
+
+.button-tab:hover {
+    background-color:#6272a4;
+    color:black;
+}
+
+#selected-tab {
+    background-color: #7fa8eb;
+    color: black;
+}
+
+#display-none {
+    display:none;
+}

@@ -1,0 +1,23 @@
+.github-side-bar {
+    background-color:#313547;
+    padding:2.5% 2.5%;
+    border-radius: 1px;
+    height: 60vh;
+    overflow-y: scroll;
+    width:20%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
