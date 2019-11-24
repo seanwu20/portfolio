@@ -1,3 +1,10 @@
+# Deployment Details
+* Site deployed [here](https://seanwu.codes/)
+* This site was deployed with `S3 Buckets`. 
+* CI/CD set up with `buddy.works`. 
+* Domain purchased and setup with `Route 53`
+* CDN set up with `Cloudfront`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
