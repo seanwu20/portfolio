@@ -77,3 +77,8 @@ body {
 .purple {
     color: #bd93f9;
 }
+
+#selected-tab {
+    background-color: #7fa8eb;
+    color: black;
+}

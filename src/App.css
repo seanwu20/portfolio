@@ -29,7 +29,6 @@
 
 
 .intro {
-    padding:2.5% 2.5%;
     background-color:#313547;
     border-radius: 5px;
     width:65%;
@@ -40,7 +39,8 @@
     background-color: #282a36;
     border:none;
     font-size: 1.3em;
-    padding: 2.5% 5%;
+    padding: 1.5% 5%;
+    margin:0px;
 
 }
 

@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Commits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GithubComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +62,7 @@
       <updated>1574475544492</updated>
       <workItem from="1574475545803" duration="3700000" />
       <workItem from="1574483866490" duration="3636000" />
-      <workItem from="1574539287396" duration="21335000" />
+      <workItem from="1574539287396" duration="26799000" />
     </task>
     <servers />
   </component>
