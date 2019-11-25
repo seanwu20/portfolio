@@ -10,7 +10,7 @@ export const TabsDisplay = () => {
         [
             {name:"SeanWu.js", id:0, component: <TabSeanWu/>},
             {name:"Experience.py", id:1, component:<TabExperience/>},
-            {name:"Projects.py", id:2, component:<TabProjects/>}
+            {name:"Projects.java", id:2, component:<TabProjects/>}
         ]
     )
 
