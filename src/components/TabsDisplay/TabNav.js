@@ -1,5 +1,4 @@
-import React, {useState} from "react";
-import Dragula from 'react-dragula';
+import React from "react";
 
 
 export const TabNav = ({tabs, selected, tabSwitcher}) => {
