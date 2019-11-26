@@ -15,6 +15,7 @@ function App() {
         axios.get('https://api.github.com/users/seanwu20/events')
             .then(res => {
                 setLoading(true)
+                console.log(res.data)
                 setGitCommit(res.data.filter(gitCommit => gitCommit.type === "PushEvent"))
                 setLoading(false)
             })
