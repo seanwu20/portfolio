@@ -4,7 +4,7 @@ import React, {useState} from "react";
 export const TabNav = ({tabs, selected, tabSwitcher}) => {
 
     return (
-        <div className='button-tabs'>
+        <div className='tab-nav'>
             {tabs.map((tab, index) => {
                 return (
                     <span key={index}>

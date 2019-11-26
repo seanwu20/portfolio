@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {TabNav} from "./TabNav";
 import './TabsDisplay.css'
-import {TabExperience, TabInfo, TabProjects, TabSeanWu} from "./TabInfo";
+import {TabExperience, TabSwitcher, TabProjects, TabSeanWu} from "./TabSwitcher";
 
 export const TabsDisplay = () => {
     let [selected, setSelected] = useState(0);
@@ -22,7 +22,10 @@ export const TabsDisplay = () => {
     return (
         <div className='tabs-display'>
             <TabNav tabs={tabs} selected={selected} tabSwitcher={tabSwitcher}/>
-            <TabInfo tabs={tabs} tabSwitcher={tabSwitcher} selected={selected}/>
+            {tabs.map(tab => {
+                if (tab.id === selected) return tab.component
+            })}
+
         </div>
     )
 }

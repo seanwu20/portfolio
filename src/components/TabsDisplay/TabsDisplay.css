@@ -1,21 +1,44 @@
 .tabs-display {
-    background-color:#313547;
-    border-radius: 5px;
-    width:65%;
+    background-color: #313547;
+    border-radius: 1px;
+    height: 60%;
+    width: 72.5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
+.tab-nav {
+    height:10%;
+}
+
+.tab-sean-wu {
+    height: 90%;
+}
+
+.tab-experience {
+    height:90%;
+}
+
+#syntax {
+    height: 100%;
+    padding:0 !important;
+}
+
+
+/*TAB-NAV BUTTON STYLING **************************************/
 .button-tab {
     font-family: 'Inconsolata', monospace;
     background-color: #282a36;
-    border:none;
+    border: none;
     font-size: 1.3em;
-    padding: 1.5% 5%;
-    margin:0px;
+    margin: 0;
+    height:100%;
 }
 
 .button-tab:hover {
-    background-color:#6272a4;
-    color:black;
+    background-color: #6272a4;
+    color: black;
 }
 
 #selected-tab {
@@ -24,5 +47,9 @@
 }
 
 #display-none {
-    display:none;
+    display: none;
 }
+
+/****************************************************/
+
+
