@@ -10,15 +10,15 @@ import darcula from "react-syntax-highlighter/dist/cjs/styles/hljs/darcula";
 export const TabSeanWu = () => {
     const seanCode = '// Software Engineer, software developer, full stack engineer etc etc \n' +
         ' \n' +
-        'function languages() { \n' +
+        'let languages = () => { \n' +
         '   return ["javascript", "python", "java"] \n' +
         '} \n' +
         ' \n' +
-        'function frameworks() { \n' +
+        'let frameworks = () => { \n' +
         '   return ["react", "express", "django", "spring", "serverless"] \n' +
         '} \n' +
         ' \n' +
-        'function cloudComputing() { \n' +
+        'let cloudComputing = () => { \n' +
         '   return ["AWS", "GCP", "github", "auth0"] \n' +
         '} '
     ;

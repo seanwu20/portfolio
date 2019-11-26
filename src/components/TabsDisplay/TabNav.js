@@ -1,10 +1,17 @@
 import React, {useState} from "react";
+import Dragula from 'react-dragula';
 
 
 export const TabNav = ({tabs, selected, tabSwitcher}) => {
 
+    const dragulaDecorator = (componentBackingInstance) => {
+        if (componentBackingInstance) {
+            let options = { };
+            Dragula([componentBackingInstance], options);
+        }
+    };
     return (
-        <div className='tab-nav'>
+        <div className='tab-nav' ref={dragulaDecorator}>
             {tabs.map((tab, index) => {
                 return (
                     <span key={index}>

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caafd9fc-aae6-48af-a6e0-b80074d44789" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabSwitcher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

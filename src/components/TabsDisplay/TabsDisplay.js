@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {TabNav} from "./TabNav";
 import './TabsDisplay.css'
-import {TabExperience, TabSwitcher, TabProjects, TabSeanWu} from "./TabSwitcher";
+import {TabExperience, TabProjects, TabSeanWu} from "./TabData";
 
 export const TabsDisplay = () => {
     let [selected, setSelected] = useState(0);
