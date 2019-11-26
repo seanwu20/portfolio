@@ -4,14 +4,8 @@ import Dragula from 'react-dragula';
 
 export const TabNav = ({tabs, selected, tabSwitcher}) => {
 
-    const dragulaDecorator = (componentBackingInstance) => {
-        if (componentBackingInstance) {
-            let options = {direction: 'horizontal', revertOnSpill: true};
-            Dragula([componentBackingInstance], options);
-        }
-    };
     return (
-        <div className='tab-nav' ref={dragulaDecorator}>
+        <div className='tab-nav'>
             {tabs.map((tab, index) => {
                 return (
                     <button className='pink button-tab'

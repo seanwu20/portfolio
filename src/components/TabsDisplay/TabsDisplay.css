@@ -27,8 +27,8 @@
 .tabs-display {
     background-color: #313547;
     border-radius: 1px;
-    height: 100%;
-    width: 80%;
+    height: 103%;
+    width: 80vw;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,6 +38,7 @@
     height:10%;
     display:flex;
     align-items: flex-end;
+    overflow-x: auto;
 }
 
 .tab-data {
