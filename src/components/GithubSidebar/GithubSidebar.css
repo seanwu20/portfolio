@@ -1,9 +1,16 @@
 .github-side-bar {
     background-color:#313547;
     border-radius: 1px;
-    height: 60%;
+    height: 100%;
     overflow-y: scroll;
     width:20%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .github-side-bar {
+        display: none;
+    }
 }
 
 

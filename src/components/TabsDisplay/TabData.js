@@ -1,11 +1,6 @@
-import React, {useState} from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
+import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import darcula from "react-syntax-highlighter/dist/cjs/styles/hljs/darcula";
-
-
-
 
 export const TabSeanWu = () => {
     const seanCode = '// Software Engineer, software developer, full stack engineer etc etc \n' +
@@ -20,20 +15,10 @@ export const TabSeanWu = () => {
         ' \n' +
         'let cloudComputing = () => { \n' +
         '   return ["AWS", "GCP", "github", "auth0"] \n' +
-        '} '
-    ;
+        '} ';
     return (
-        <div className='tab-sean-wu'>
-            <SyntaxHighlighter language='javascript' style={darcula}>{seanCode}</SyntaxHighlighter>
-            <br/>
-            <a href='https://docs.google.com/document/d/141cN8kct5emkL16UFUrGPvxnYModMUE_LVI_jjwA5R8/edit?usp=sharing'
-               target='_blank' className='orange'>> Grab a resume here</a>
-            <br/>
-            <br/>
-            <a href='https://www.linkedin.com/in/seanwu20/' target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x'
-                                                                                             color='#4875B4'/></a>
-            <a href='https://github.com/seanwu20' target="_blank"> <FontAwesomeIcon icon={faGithubSquare} size='2x'
-                                                                                    color='white'/></a>
+        <div className='tab-data'>
+            <SyntaxHighlighter language='javascript' style={darcula} id='syntax'>{seanCode}</SyntaxHighlighter>
         </div>
     )
 }
@@ -67,13 +52,17 @@ export const TabExperience = () => {
         '  }' +
         '\n \n \n'
     return (
-        <div className='tab-experience'>
+        <div className='tab-data'>
             <SyntaxHighlighter language='python' style={darcula} id='syntax'>{experienceCode}</SyntaxHighlighter>
         </div>
     )
 }
 export const TabProjects = () => {
     return (
-        <div>Projects</div>
+        <div className='tab-projects'>
+            <p>Lift Quest: A progressive web app to track all your workout needs</p>
+            <br/>
+            <div><a href='https://www.liftquestapp.com/' target='__blank'><img src='/liftquest.png' className="lift-quest-image"/></a></div>
+        </div>
     )
 }

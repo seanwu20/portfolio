@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="caafd9fc-aae6-48af-a6e0-b80074d44789" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubSidebar/GithubSidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDisplay/TabsDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,6 +44,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\seanw\Desktop\portfolio\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\seanw\Desktop\portfolio\src\components\TabsDisplay" />
       <recent name="C:\Users\seanw\Desktop\portfolio\src\components\GithubSideBar" />
@@ -76,6 +79,7 @@
       <workItem from="1574483866490" duration="3636000" />
       <workItem from="1574539287396" duration="39933000" />
       <workItem from="1574645852086" duration="19699000" />
+      <workItem from="1574794088255" duration="3380000" />
     </task>
     <servers />
   </component>

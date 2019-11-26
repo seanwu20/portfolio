@@ -6,7 +6,7 @@ export const TabNav = ({tabs, selected, tabSwitcher}) => {
 
     const dragulaDecorator = (componentBackingInstance) => {
         if (componentBackingInstance) {
-            let options = { };
+            let options = {direction: 'horizontal', revertOnSpill: true};
             Dragula([componentBackingInstance], options);
         }
     };
@@ -14,13 +14,12 @@ export const TabNav = ({tabs, selected, tabSwitcher}) => {
         <div className='tab-nav' ref={dragulaDecorator}>
             {tabs.map((tab, index) => {
                 return (
-                    <span key={index}>
-                        <button className='pink button-tab'
-                                id={tab.id === selected ? 'selected-tab' : null}
-                                onClick={(e) => tabSwitcher(e, tab.id)}>
-                            {tab.name}
-                        </button>
-                    </span>
+                    <button className='pink button-tab'
+                            id={tab.id === selected ? 'selected-tab' : null}
+                            onClick={(e) => tabSwitcher(e, tab.id)}
+                            key={index}>
+                        {tab.name}
+                    </button>
                 )
             })}
         </div>

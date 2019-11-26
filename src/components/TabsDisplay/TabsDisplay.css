@@ -1,4 +1,4 @@
-/*Drag and drop styling*/
+/*Drag and drop styling***************************************/
 .gu-mirror {
     position: fixed !important;
     margin: 0 !important;
@@ -21,14 +21,14 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
     filter: alpha(opacity=20);
 }
-
+/**********************************************************************/
 
 
 .tabs-display {
     background-color: #313547;
     border-radius: 1px;
-    height: 60%;
-    width: 72.5%;
+    height: 100%;
+    width: 80%;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -37,14 +37,16 @@
 .tab-nav {
     height:10%;
     display:flex;
+    align-items: flex-end;
 }
 
-.tab-sean-wu {
+.tab-data {
     height: 90%;
 }
 
-.tab-experience {
-    height:90%;
+.tab-projects {
+    background-color: rgb(43, 43, 43);
+    height:100%;
 }
 
 #syntax {
@@ -57,11 +59,22 @@
 .button-tab {
     font-family: 'Inconsolata', monospace;
     background-color: #282a36;
-    border: none;
-    font-size: 1.3em;
-    margin: 0;
+    font-size: 1.4em;
     height:100%;
+    border: none;
 }
+
+
+.lift-quest-image {
+    max-width:50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .lift-quest-image {
+        max-width: 95%;
+    }
+}
+
 
 .button-tab:hover {
     background-color: #6272a4;
@@ -80,3 +93,9 @@
 /****************************************************/
 
 
+@media only screen and (max-width: 600px) {
+    .tabs-display {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

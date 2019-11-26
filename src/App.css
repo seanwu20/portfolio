@@ -1,10 +1,27 @@
 .App {
-    display:flex;
-    justify-content: space-between;
-    margin-top:10px;
+    margin:0 auto;
     height:100vh;
+    max-width: 1000px;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .App {
+        padding: .5% .5%;
+    }
+}
+
+
+.top {
+    display:flex;
+    justify-content: center;
+    height:60vh;
+}
+
+.bottom {
+    border: 1px black solid;
+    height:40vh;
+}
 
 /*Scrollbar effects*/
 ::-webkit-scrollbar {
@@ -20,5 +37,6 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 
 
