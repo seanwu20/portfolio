@@ -8,14 +8,14 @@ export const About = () => {
         <div className='about'>
             <p>About this site</p>
             <p>> Deployed with S3 Buckets </p>
-            <p>> CI/CD with buddy.works</p>
+            <p>> CI/CD with AWS CodePipeline</p>
             <p>> CDN setup with Cloudfront </p>
             <p>> Domain setup with Route 53</p>
-            <a href='https://docs.google.com/document/d/141cN8kct5emkL16UFUrGPvxnYModMUE_LVI_jjwA5R8/edit?usp=sharing'
-               target='_blank'
-               className='orange'>
-                Click me to grab a resume here</a>
-            <br/>
+//             <a href='https://docs.google.com/document/d/141cN8kct5emkL16UFUrGPvxnYModMUE_LVI_jjwA5R8/edit?usp=sharing'
+//                target='_blank'
+//                className='orange'>
+//                 Click me to grab a resume here</a>
+//             <br/>
             <a href='https://www.linkedin.com/in/seanwu20/'
                target="_blank">
                 <FontAwesomeIcon
