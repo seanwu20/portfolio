@@ -7,7 +7,6 @@ export const About = () => {
     return (
         <div className='about'>
             <p>About this site</p>
-        testing
             <p>> Deployed with S3 Buckets </p>
             <p>> CI/CD with AWS CodePipeline</p>
             <p>> CDN setup with Cloudfront </p>
