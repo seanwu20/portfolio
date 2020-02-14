@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import darcula from "react-syntax-highlighter/dist/cjs/styles/hljs/darcula";
 
 export const TabSeanWu = () => {
-    const seanCode = '// Software Engineer, software developer, full stack engineer etc etc \n' +
+    const seanCode = '# Software Engineer based in the Greater New York Area \n' +
         ' \n' +
         'def languages():  \n' +
         '   return ["javascript", "python", "java"] \n' +
