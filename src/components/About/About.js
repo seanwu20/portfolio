@@ -6,7 +6,7 @@ import './About.css'
 export const About = () => {
     return (
         <div className='about'>
-            <p>This site was overengineered with AWS and React</p>
+            <p className='purple'>This site was overengineered with AWS and React</p>
             <p>> Domain bought and managed by Amazon Route 53</p>
             <p>> SSL/TLS certificates provided by AWS Certificate Manager</p>
             <p>> CDN provided by Amazon Cloudfront</p>
