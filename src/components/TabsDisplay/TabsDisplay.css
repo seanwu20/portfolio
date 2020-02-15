@@ -1,5 +1,5 @@
 .tabs-display {
-    padding: 1.5%;
+    padding: 1.5% 0;
     background-color: #313547;
     border-radius: 1px;
     height: 100%;
@@ -43,9 +43,12 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .lift-quest-image {
         max-width: 100%;
+    }
+    .tabs-display {
+        padding: 0
     }
 }
 
