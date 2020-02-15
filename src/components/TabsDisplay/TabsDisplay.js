@@ -9,7 +9,7 @@ export const TabsDisplay = () => {
     const [tabs, setTabs] = useState(
         [
             {name: "sean_wu.py", id: 0, component: <TabSeanWu/>},
-            {name: "LiftQuest.js", id: 2, component: <TabProjects/>}
+            {name: "LiftQuest.js", id: 1, component: <TabProjects/>},
         ]
     )
 

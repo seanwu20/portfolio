@@ -4,7 +4,7 @@ import './GithubSidebar.css'
 export const GithubSidebar = ({commitEvents}) => {
     return (
         <div className='github-side-bar'>
-            <h2 className='pink'>Latest Github Activity</h2>
+            <h2 className='pink'>Github Activity</h2>
             <br/>
             {
                 commitEvents.map((commitEvent, index) => {
