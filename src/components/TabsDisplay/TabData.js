@@ -12,7 +12,7 @@ export const TabSeanWu = () => {
         ' \n' +
         ' \n' +
         'def frameworks(): \n' +
-        '   return ["react", "express", "django", "spring", "serverless"] \n' +
+        '   return ["react", "express", "django", "spring boot", "serverless"] \n' +
         ' \n' +
         ' \n' +
         'def cloudComputing: \n' +
