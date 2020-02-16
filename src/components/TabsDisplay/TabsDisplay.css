@@ -1,3 +1,5 @@
+/*ENTIRE TAB CONTAINER*/
+
 .tabs-display {
     padding: 1.5% 0;
     background-color: #313547;
@@ -6,30 +8,42 @@
     width: 80vw;
 }
 
+/*TAB NAV BAR*/
 .tab-nav {
     height: 10%;
 }
 
+/*ACTUAL TAB STUFF*/
 .tab {
     height: 90%;
     background-color: rgb(43, 43, 43);
     overflow-y: auto;
+    width:98.5%;
 }
+
+/*SEAN TAB STUFF*/
+.sean-tab {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
 .about-site {
     padding:1.5%;
 }
-
 
 #syntax {
     padding: 1.5% !important;
 }
 
 
+/*LIFT QUEST TAB STUFF*/
 .lift-quest-image {
     display: block;
     max-width: 50%;
     margin: 0 auto;
 }
+
 
 
 /*TAB-NAV BUTTON STYLING **************************************/
@@ -39,24 +53,18 @@
     font-size: 1.4em;
     height: 100%;
     border: none;
-    /*padding:1.5%;*/
 }
-
-
-@media only screen and (max-width: 800px) {
-    .lift-quest-image {
-        max-width: 100%;
-    }
-    .tabs-display {
-        padding: 0
-    }
-}
-
 
 .button-tab:hover {
     background-color: #6272a4;
     color: black;
+    transform: scale(1.0, 1.15);
+    transition: transform .20s;
 }
+
+
+
+
 
 #selected-tab {
     background-color: #7fa8eb;
@@ -74,5 +82,12 @@
     .tabs-display {
         width: 100%;
         margin: 0 auto;
+        padding: 0;
+    }
+    .lift-quest-image {
+        max-width: 100%;
+    }
+    .tab {
+        width:100%;
     }
 }
