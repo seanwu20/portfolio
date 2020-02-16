@@ -18,32 +18,67 @@
     height: 90%;
     background-color: rgb(43, 43, 43);
     overflow-y: auto;
-    width:98.5%;
+    width: 98.5%;
 }
 
 /*SEAN TAB STUFF*/
 .sean-tab {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .about-site {
-    padding:1.5%;
+    padding: 1.5%;
 }
 
 #syntax {
     padding: 1.5% !important;
 }
 
+.expand-hover:hover {
+    transform: scale(1.5, 1.5);
+    transition: transform .20s;
+}
+
 
 /*LIFT QUEST TAB STUFF*/
+
 .lift-quest-image {
     display: block;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
+.liftquest-content {
+    padding:1.5%;
+}
+
+
+/*ROAD TO CANADA STUFF*/
+
+.rpg-images {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rpg-images img {
+    display:block;
+    max-width:80%;
+    margin:0 auto;
+}
+
+.road-to-canada-content {
+    padding: 1.5%;
+}
+
+
+/*TREASURE HUNT*/
+
+.treasure-hunt-content {
+    padding: 1.5%;
+}
 
 
 /*TAB-NAV BUTTON STYLING **************************************/
@@ -63,9 +98,6 @@
 }
 
 
-
-
-
 #selected-tab {
     background-color: #7fa8eb;
     color: black;
@@ -73,6 +105,47 @@
 
 #display-none {
     display: none;
+
+}
+
+#display {
+    animation: fade-in .25s;
+    animation-timing-function: linear;
+}
+
+@keyframes fade-in {
+    0% {
+        display: block;
+        opacity: 25%;
+    }
+    50% {
+        opacity: 75%;
+    }
+    75% {
+        opacity: 90%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        display: block;
+        opacity: 100%;
+    }
+    25% {
+        opacity: 75%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    75% {
+        opacity: 25%;
+    }
+    100% {
+        display: none
+    }
 }
 
 /****************************************************/
@@ -84,10 +157,12 @@
         margin: 0 auto;
         padding: 0;
     }
+
     .lift-quest-image {
         max-width: 100%;
     }
+
     .tab {
-        width:100%;
+        width: 100%;
     }
 }

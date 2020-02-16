@@ -1,30 +1,38 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {TabNav} from "./TabNav";
 import './TabsDisplay.css'
-import {TabProjects, TabSeanWu, TabProjects2} from "./TabData";
+import {TabLiftQuest, TabRoadToCanada, TabSeanWu, TabTreasureHunt} from "./TabData";
+
+
 
 export const TabsDisplay = () => {
-    let [selected, setSelected] = useState(0);
+    let [selectedId, setSelectedId] = useState(0);
+    useEffect(() => {
+        let previous_selected = localStorage.getItem("selectedId")
+        if (previous_selected !== null) setSelectedId(parseInt(previous_selected))
+    }, []);
 
     const [tabs, setTabs] = useState(
         [
-            {name: "sean_wu.py", id: 0, component: <TabSeanWu/>},
-            {name: "LiftQuest.js", id: 1, component: <TabProjects/>},
-            {name: "LiftQuest.js", id: 2, component: <TabProjects2/>},
+            {name: "Sean Wu", id: 0},
+            {name: "Lift Quest", id: 1},
+            {name: "Road To Canada", id: 2},
+            {name: "Treasure Hunt", id: 3},
         ]
     )
 
-    function tabSwitcher(event, id) {
-        event.preventDefault()
-        setSelected(id)
+    function tabSwitcher(id) {
+        setSelectedId(id)
+        localStorage.setItem("selectedId", id.toString())
     }
 
     return (
         <div className='tabs-display'>
-            <TabNav tabs={tabs} selected={selected} tabSwitcher={tabSwitcher}/>
-            {tabs.map(tab => {
-                if (tab.id === selected) return tab.component
-            })}
+            <TabNav tabs={tabs} selectedId={selectedId} tabSwitcher={tabSwitcher}/>
+            <TabSeanWu selectedId={selectedId}/>
+            <TabLiftQuest selectedId={selectedId}/>
+            <TabRoadToCanada selectedId={selectedId}/>
+            <TabTreasureHunt selectedId={selectedId}/>
 
         </div>
     )

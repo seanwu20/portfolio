@@ -21,7 +21,7 @@ function App() {
 
     return (
         <div className="App">
-            <div class='content'>
+            <div className='content'>
                     <GithubSidebar commitEvents={gitCommits}/>
                     <TabsDisplay/>
             </div>
