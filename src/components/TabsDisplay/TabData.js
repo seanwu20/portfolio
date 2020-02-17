@@ -121,7 +121,7 @@ export const TabRoadToCanada = ({selectedId}) => {
 
                 <p><span className='orange'>Story:</span></p>
                 <br/>
-                <p>Influenced by a much better game, Death Road to Canada</p>
+                <p>Influenced by the much better game, Death Road to Canada</p>
                 <br/>
                 <p>No late night work sessions on this project, but manually entering states and cities was painful.
                     Luckily
@@ -154,16 +154,14 @@ export const TabRoadToCanada = ({selectedId}) => {
 }
 
 
-
-
-
 export const TabTreasureHunt = ({selectedId}) => {
     return (
         <div className='tab treasure-hunt' id={selectedId === 3 ? 'display' : 'display-none'}>
             <div className='treasure-hunt-content'>
                 <p><span className='orange'>Treasure Hunt: </span></p>
                 <br/>
-                <p>Traversed and explored a world represented by graphs. Avoid traps, collect treasures and mine cryptocurrency.
+                <p>Traversed and explored a world represented by graphs. Avoid traps, collect treasures and mine
+                    cryptocurrency.
                 </p>
                 <br/>
                 <br/>
@@ -176,7 +174,8 @@ export const TabTreasureHunt = ({selectedId}) => {
 
                 <p><span className='orange'>Story:</span></p>
                 <br/>
-                <p>By far my favorite project I did at Lambda. Felt like a team of hackers racing against others to be rich first</p>
+                <p>By far my favorite project I did at Lambda. Felt like a team of hackers racing against others to be
+                    rich first</p>
                 <br/>
                 <p>No pretty photos with this project unfortunately</p>
                 <br/>
