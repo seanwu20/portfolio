@@ -89,7 +89,8 @@
     font-size: 1.4em;
     height: 100%;
     border: none;
-    border-right:1px white solid;
+    border-radius: 1px;
+    border-right:.5px white solid;
 
 }
 
@@ -108,7 +109,6 @@
 #selected-tab {
     background-color: #7fa8eb;
     color: black;
-    border-radius: 15px 15px 15px 0;
 }
 
 #display-none {
@@ -117,7 +117,7 @@
 }
 
 #display {
-    animation: fade-in 1s;
+    -webkit-animation: fade-in 1s;
     animation-timing-function: linear;
 }
 
