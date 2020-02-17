@@ -11,6 +11,7 @@
 /*TAB NAV BAR*/
 .tab-nav {
     height: 10%;
+    /*display:flex;*/
 }
 
 /*ACTUAL TAB STUFF*/
@@ -88,6 +89,12 @@
     font-size: 1.4em;
     height: 100%;
     border: none;
+    border-right:1px white solid;
+
+}
+
+.button-tab:focus {
+    outline: 0;
 }
 
 .button-tab:hover {
@@ -101,6 +108,7 @@
 #selected-tab {
     background-color: #7fa8eb;
     color: black;
+    border-radius: 15px 15px 15px 0;
 }
 
 #display-none {
@@ -109,7 +117,7 @@
 }
 
 #display {
-    animation: fade-in .25s;
+    animation: fade-in 1s;
     animation-timing-function: linear;
 }
 
@@ -129,25 +137,6 @@
     }
 }
 
-@keyframes fade-out {
-    0% {
-        display: block;
-        opacity: 100%;
-    }
-    25% {
-        opacity: 75%;
-    }
-    50% {
-        opacity: 50%;
-    }
-    75% {
-        opacity: 25%;
-    }
-    100% {
-        display: none
-    }
-}
-
 /****************************************************/
 
 
@@ -164,5 +153,8 @@
 
     .tab {
         width: 100%;
+    }
+    .tab-nav {
+        height: 7.5%;
     }
 }

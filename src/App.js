@@ -7,14 +7,11 @@ import {TabsDisplay} from "./components/TabsDisplay/TabsDisplay";
 
 
 function App() {
-    const [loading, setLoading] = useState(false)
     const [gitCommits, setGitCommit] = useState([])
     useEffect(() => {
         axios.get('https://api.github.com/users/seanwu20/events')
             .then(res => {
-                setLoading(true)
                 setGitCommit(res.data.filter(gitCommit => gitCommit.type === "PushEvent"))
-                setLoading(false)
             })
             .catch(err => console.log(err))
     }, [])
@@ -22,8 +19,8 @@ function App() {
     return (
         <div className="App">
             <div className='content'>
-                    <GithubSidebar commitEvents={gitCommits}/>
-                    <TabsDisplay/>
+                <GithubSidebar commitEvents={gitCommits}/>
+                <TabsDisplay/>
             </div>
         </div>
     );
