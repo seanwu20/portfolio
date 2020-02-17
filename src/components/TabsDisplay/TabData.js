@@ -5,7 +5,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithubSquare, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import liftquest from '../../assets/images/liftquest.png'
 import rpggame from '../../assets/images/rpg-game-view.png'
-import rpgmap from '../../assets/images/rpg-map.png'
 
 
 export const TabSeanWu = ({selectedId}) => {
@@ -69,7 +68,7 @@ export const TabLiftQuest = ({selectedId}) => {
 
                 <p><span className='orange'>Technologies utilized:</span></p>
                 <br/>
-                <p>Node, Express, React, Stripe, Heroku, Netlify</p>
+                <p>Node, Express, React, Stripe, Heroku, Netlify, Auth0</p>
                 <br/>
                 <br/>
 
@@ -144,9 +143,6 @@ export const TabRoadToCanada = ({selectedId}) => {
                     <img src={rpggame}
                          className="rpg"
                          alt='rpg game view'/>
-                    <img src={rpgmap}
-                         className="rpg"
-                         alt='rpg map view'/>
                 </div>
             </div>
         </div>
