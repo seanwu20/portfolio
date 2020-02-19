@@ -30,12 +30,25 @@
     justify-content: space-between;
 }
 
+.me {
+    max-width:32.5%;
+    padding:1.5%;
+}
+
+.space-icon {
+    margin-right: 1.5%;
+}
+
+.top {
+    display:flex;
+}
+
 .about-site {
     padding: 1.5%;
 }
 
 #syntax {
-    padding: 1.5% !important;
+    padding: 1.5% 1.5% 0 1.5% !important;
 }
 
 .expand-hover:hover {
@@ -157,4 +170,13 @@
     .tab-nav {
         height: 7.5%;
     }
+
+    .me {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .top {
+        flex-direction: column;
+    }
+
 }

@@ -3,12 +3,20 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import darcula from "react-syntax-highlighter/dist/cjs/styles/hljs/darcula";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithubSquare, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faFile} from "@fortawesome/free-solid-svg-icons/faFile";
 import liftquest from '../../assets/images/liftquest.png'
 import rpggame from '../../assets/images/rpg-game-view.png'
+import me from '../../assets/images/me.png'
 
 
 export const TabSeanWu = ({selectedId}) => {
     const seanCode = '# Software Engineer based in the Greater New York Area \n' +
+        ' \n' +
+        '# Actual photo of me when I was 5. You can tell because of the scooter \n' +
+        ' \n' +
+        'def contact():  \n' +
+        '   return {"email": "seanwu20@gmail.com", "phone": "646-886-7157"} \n' +
+        ' \n' +
         ' \n' +
         'def languages():  \n' +
         '   return ["javascript", "python", "java"] \n' +
@@ -19,13 +27,17 @@ export const TabSeanWu = ({selectedId}) => {
         ' \n' +
         ' \n' +
         'def cloudComputing: \n' +
-        '   return ["AWS", "GCP", "github", "auth0"]';
+        '   return ["AWS", "GCP", "github", "auth0", "heroku"]';
 
     return (
         <div className='tab sean-tab' id={selectedId === 0 ? 'display' : 'display-none'}>
-            <SyntaxHighlighter language='python' style={darcula} id='syntax'>{seanCode}</SyntaxHighlighter>
+
+            <div className='top'>
+                <img src={me} alt='me' className='me'/>
+                <SyntaxHighlighter language='python' style={darcula} id='syntax'>{seanCode}</SyntaxHighlighter>
+            </div>
             <div className='about-site'>
-                <p className='purple'>This site was overengineered with AWS and React</p>
+                <p className='purple'>This portfolio site was overengineered with AWS and React</p>
                 <p>> Domain bought and managed by Amazon Route 53</p>
                 <p>> SSL/TLS certificates provided by AWS Certificate Manager</p>
                 <p>> CDN provided by Amazon Cloudfront</p>
@@ -37,14 +49,20 @@ export const TabSeanWu = ({selectedId}) => {
                         icon={faLinkedin}
                         size='2x'
                         color='#4875B4'
-                        className='expand-hover'/>
+                        className='expand-hover space-icon'/>
                 </a>
                 <a href='https://github.com/seanwu20' target="_blank">
                     <FontAwesomeIcon
                         icon={faGithubSquare}
                         size='2x'
                         color='white'
-                        className='expand-hover'/></a>
+                        className='expand-hover space-icon'/></a>
+                <a href='https://drive.google.com/open?id=1gdGAtmHIqzf31VtWpJHu3nJdH3sB-g69' target="_blank">
+                    <FontAwesomeIcon
+                        icon={faFile}
+                        size='2x'
+                        color='red'
+                        className='expand-hover space-icon'/></a>
             </div>
         </div>
     )
