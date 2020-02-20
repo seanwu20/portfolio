@@ -31,8 +31,9 @@
 }
 
 .me {
+    padding:1.5% 1.5% 0 1.5%;
     max-width:32.5%;
-    padding:1.5%;
+
 }
 
 .space-icon {
@@ -48,7 +49,7 @@
 }
 
 #syntax {
-    padding: 1.5% 1.5% 0 1.5% !important;
+    padding: 1.5% 1.5% 0 0 !important;
 }
 
 .expand-hover:hover {
