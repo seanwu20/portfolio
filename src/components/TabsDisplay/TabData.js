@@ -148,7 +148,7 @@ export const TabRoadToCanada = ({selectedId}) => {
 
                 <p><span className='orange'>Links:</span></p>
                 <br/>
-                <p><a className='purple' href='https://rpg-client-git-env.seanwu20.now.sh/'>Road to Canada site</a></p>
+                <p><a className='purple' href='https://road-to-canada-client.now.sh/'>Road to Canada site</a></p>
                 <br/>
                 <p><a className='purple' href='https://github.com/seanwu20/road-to-canada-client'>Front End Code</a></p>
                 <br/>
