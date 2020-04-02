@@ -26,7 +26,7 @@ export const TabSeanWu = ({selectedId}) => {
         '   return ["react", "express", "django", "spring boot", "serverless"] \n' +
         ' \n' +
         ' \n' +
-        'def cloudComputing: \n' +
+        'def cloud_tools(): \n' +
         '   return ["AWS", "GCP", "github", "auth0", "heroku"]';
 
     return (
