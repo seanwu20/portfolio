@@ -12,7 +12,7 @@ import me from '../../assets/images/me.png'
 export const TabSeanWu = ({selectedId}) => {
     const seanCode = '# Software Engineer based in the Greater New York Area \n' +
         ' \n' +
-        '# Actual photo of me when I was 5. You can tell because of the scooter \n' +
+        '# I actually kinda like Leetcode problems \n' +
         ' \n' +
         'def contact():  \n' +
         '   return {"email": "seanwu20@gmail.com", "phone": "646-886-7157"} \n' +
